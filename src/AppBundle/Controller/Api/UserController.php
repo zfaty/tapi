@@ -1,15 +1,15 @@
 <?php
 
-namespace AppBundle\Controller;
+namespace AppBundle\Controller\Api;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 
-class DefaultController extends Controller
+class UserController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
+     * @Route("/user")
      */
     public function indexAction(Request $request)
     {
